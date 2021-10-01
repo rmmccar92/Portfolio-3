@@ -16,13 +16,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
       rel="stylesheet"
     />
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Rubik&display=swap"
-      rel="stylesheet"
-    />
     <!--Custom CSS-->
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
@@ -45,10 +38,13 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#work">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./assets/images/McCarthy Resume.docx.pdf">Resume</a>
               </li>
             </ul>
           </div>
@@ -58,24 +54,38 @@
 
     <main>
         <div class="img-box">
-      <div class="hero"></div>
+            <section class="site-head">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <h1 class="name">Ryan McCarthy</h5>
+                      <p class="subtitle">Full Stack Development Portfolio</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+      <div class="hero">
+
+      </div>
       </div>
 
-      <div class="container marketing">
-
+      <div class="container" id="work">
+        <h1 class="text-center m-1">My Work</h1>
         <hr class="featurette-divider" />
 
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">
               Project 1.
-              <span class="text-muted">Confused Gamer.</span>
+             <a class="cg-link" href="https://rmmccar92.github.io/Confused-Gamer/" target="_blank"><span class="text-muted">Confused Gamer.</span></a>
             </h2>
             <p class="lead">
               An application designed to recommend and provide information about video games.
             </p>
           </div>
           <div class="col-md-5">
+              <a class ="cg-link" href="https://rmmccar92.github.io/Confused-Gamer/" target="_blank">
             <img
               class="
                 bd-placeholder-img bd-placeholder-img-lg
@@ -93,7 +103,7 @@
               focusable="false"
             >
               <title>Confused Gamer</title>
-            </svg>
+              </a>
           </div>
         </div>
 
@@ -103,13 +113,14 @@
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">
               Project 2.
-              <span class="text-muted">Farmer's Market Search.</span>
+             <a href="https://still-tor-25996.herokuapp.com/" target="_blank" class="fms-link"> <span class="text-muted">Farmer's Market Search.</span></a>
             </h2>
             <p class="lead">
                 A full stack application that allows local farmers and customers to congregate and provide information about nearby farmer's markets. 
             </p>
           </div>
           <div class="col-md-5 order-md-1">
+              <a href="https://still-tor-25996.herokuapp.com/" target="_blank" class="fms-link">
             <img
               class="
                 bd-placeholder-img bd-placeholder-img-lg
@@ -126,6 +137,7 @@
               focusable="false"
             >
               <title>Farmer's Market Search</title>
+              </a>
           </div>
         </div>
 
@@ -166,6 +178,8 @@
         <hr class="featurette-divider" />
 
         <!-- /END THE FEATURETTES -->
+        
+        <!-- <h1 class="text-center m-1">Other Work</h1> -->
         <div class="row">
             <div class="col-lg-4">
               <svg
@@ -246,7 +260,38 @@
             </div>
   
       </div>
-      <!-- /.container -->
+      <div class="about-me-head" id="about-me">
+      <h1 class="text-center m-1">About Me</h1>
+      <div class="row featurette">
+        <div class="col-lg-6 order-md-2">
+          <p class="lead">
+            Welcome to my Portfolio. I have always found myself drawn to the ability to create. Whether
+            that's a digital or physical project there's a certain amount of craftsmanship that can be appreciated.
+            So naturally I found myself drawn to web development.I have been working as an A/V technician and part
+            time video editor for the last three years and while I still enjoy video editing I am excited to see
+            what new feats I can accomplish within the web development environment.<br></br>
+
+            Below you can see some of the projects I've worked on. I've chosen to showcase some of the work that I'm
+            most proud of and I hope to update this page periodically with more advanced ventures in the future.
+            Feel free to contact me through my contact information below and thank you for taking the time to look
+            through my portfolio.
+          </p>
+        </div>
+        <div class="col-lg-4 info-card mx-auto text-center">
+            <img
+              class="bd-placeholder-img rounded-circle"
+              width="210"
+              height="210"
+              src="https://avatars.githubusercontent.com/u/83666127?v=4"
+              role="img"
+              focusable="false"
+            >
+              <title>Ryan McCarthy</title>
+
+        </div>
+      </div>
+      </div>
+
 
       <!-- FOOTER -->
       <footer class="container">

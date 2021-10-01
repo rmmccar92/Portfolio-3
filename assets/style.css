@@ -6,6 +6,25 @@ body {
   overflow: hidden;
   box-shadow: inset 0em -1em 10em black;
 }
+
+.site-head {
+  z-index: 1;
+  position: relative;
+  float: left;
+  top: 4em;
+}
+
+.name {
+  font-size: 3.75em;
+  margin: 0;
+  padding: 0;
+}
+
+.subtitle {
+  font-size: 5em;
+  display: none;
+}
+
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
     url(https://images.pexels.com/photos/5186869/pexels-photo-5186869.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=2000);
@@ -16,9 +35,6 @@ body {
   aspect-ratio: 16 / 10;
 }
 
-.marketing {
-}
-
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -27,8 +43,16 @@ body {
   user-select: none;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+@media (min-width: 1200px) {
+  .site-head {
+    top: 8em;
+  }
+
+  .subtitle {
+    display: unset;
+  }
+
+  .name {
+    font-size: 14em;
   }
 }
