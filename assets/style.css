@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/5186869/pexels-photo-5186869.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=2000);
+  background-repeat: no-repeat;
+  transform: scaleY(-1) scaleX(-1);
+  background-size: cover;
+  aspect-ratio: 16 / 10;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
