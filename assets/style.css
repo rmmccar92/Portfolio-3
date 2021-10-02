@@ -2,6 +2,16 @@ body {
   background-color: rgb(37, 37, 37);
   color: white;
 }
+
+ul {
+  list-style: none;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  z-index: 1;
+}
+
 .img-box {
   overflow: hidden;
   box-shadow: inset 0em -1em 10em black;
@@ -43,9 +53,22 @@ body {
   user-select: none;
 }
 
+a {
+  text-decoration: none;
+}
+footer li {
+  padding: 0.25em;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+}
+
 @media (min-width: 1200px) {
   .site-head {
-    top: 8em;
+    top: 6em;
   }
 
   .subtitle {
@@ -56,3 +79,9 @@ body {
     font-size: 14em;
   }
 }
+
+@media (min-width: 765px) {
+  .name {
+    font-size: 10em;
+  }
+} ;
